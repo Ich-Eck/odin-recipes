@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Roboto', sans-serif;
+  /* outline: 2px solid red; */
+}
+
+/* index.html main page */
+
+h1 {
+  text-align: center;
+  background-color: orange;
+}
+
+.links {
+  font-size: 1.2em;
+}
+
+#recipe-list {
+  padding-left: 0;
+  display: inline-block;
+  list-style: none;
+  background-color: lightcyan;
+}
+
+#recipe-list a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* lasagna.html */
+
+#lasagna-ingredients ul {
+  border: solid;
+  border-width: thick;
+  border-radius: 20px;
+  border-color: orange;
+}
+
+.lasagna-ingredients-list li {
+  margin-top: 10px;
+}
+
+.lasagna-steps-list li {
+  margin-bottom: 10px;
+}
